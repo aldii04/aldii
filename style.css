@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.img{
+    width: 25px;
+    height: 435px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: palegoldenrod;
+    border-radius: 35px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 760px;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 25px;
+    animation: fadeIn 1s ease-in-out;
+}
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
+.button{
+    background-color: #4CAF50; /* Hijau */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
